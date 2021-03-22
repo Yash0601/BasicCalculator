@@ -1,7 +1,5 @@
 FROM python:3
 
-ADD src /Source
+ADD Source /Source/
 
-#RUN pip install pystrich
-
-CMD [ "python", "./Source/calc_test.py" ]
+CMD [ "python", "Source/calc_test.py" ]
